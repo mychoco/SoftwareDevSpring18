@@ -1,0 +1,49 @@
+body {
+    background-image: url("../image/paper-background.jpeg");
+    margin-right: 250px;
+    margin-left: 250px;
+}
+
+h1 {
+    color: #417255;
+    text-align: center;
+}
+
+h2 {
+	margin-right: 50px;
+    margin-left: 50px;
+    line-height: 0;
+}
+
+p {
+    font-family: "Cambria";
+    font-size: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+img {
+    /*display: block;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px
+}
+
+.center {
+    text-align: center;
+}
+
+div.box {
+	margin: 30px;
+    background: rgb(255, 255, 255); /* Fall-back for browsers that don't
+                                    support rgba */
+    background: rgba(255, 255, 255, .5);
+	border: 7px solid black;
+}
+
+div.bubble {
+	background-image: url("../image/bubble.png");
+	background-repeat: no-repeat;
+    background-position: center; 
+}
